@@ -28,7 +28,7 @@ a **professional dialog-based color picker** with minimal setup.
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ea56fd38-475f-45b6-8235-d0d0d92e945c" width="45%" />
+  <img src="https://github.com/user-attachments/assets/c0db8b8b-ce77-48b9-bdfb-2aacb5f27267" width="45%" />
   <img src="https://github.com/user-attachments/assets/e61451a2-dae5-4f0c-9585-ed952834e59f" width="45%" />
 </p>
 
