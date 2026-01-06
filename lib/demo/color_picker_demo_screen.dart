@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_color_picker_view/features/color_picker/view/color_picker_view.dart';
 import 'package:flutter_color_picker_view/features/color_picker/widgets/color_picker_dialog.dart';
 
 class ColorPickerDemoScreen extends StatefulWidget {
@@ -25,29 +24,20 @@ class _ColorPickerDemoScreenState extends State<ColorPickerDemoScreen> {
       ),
       body: Column(
         children: [
-          Expanded(
-            child: ColorPickerView(
-              onColorSelected: (color){
-                setState(() {
-                  color = color;
-                });
-              },
-              initialColor: selectedColor,
-            ),
+          Expanded(child: SizedBox(height: 20)),
+          ElevatedButton(
+            onPressed: () {
+              showColorPickerDialog(
+                context: context,
+                initialColor: selectedColor,
+                onColorSelected: (color) {
+                  setState(() => selectedColor = color);
+                },
+              );
+            },
+            child: const Text('Pick Color'),
           ),
-          // ElevatedButton(
-          //   onPressed: () {
-          //     showColorPickerDialog(
-          //       context: context,
-          //       initialColor: selectedColor,
-          //       onColorSelected: (color) {
-          //         setState(() => selectedColor = color);
-          //       },
-          //     );
-          //   },
-          //   child: const Text('Pick Color'),
-          // ),
-          // Expanded(child: SizedBox(height: 20)),
+          Expanded(child: SizedBox(height: 20)),
           Container(
             height: 80,
             color: selectedColor,

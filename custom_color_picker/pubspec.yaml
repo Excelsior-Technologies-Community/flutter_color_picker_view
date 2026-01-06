@@ -1,7 +1,7 @@
 name: custom_color_picker
 description: "A new Flutter package project."
 version: 0.0.1
-homepage: https://github.com/chetan9357/flutter_color_picker_view
+homepage: https://github.com/Excelsior-Technologies-Community/flutter_color_picker_view
 
 environment:
   sdk: ^3.8.1
