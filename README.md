@@ -24,9 +24,6 @@ a **professional dialog-based color picker** with minimal setup.
 
 ## 📸 Preview
 
-> Dialog-based color picker UI
-## 📸 Preview
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c0db8b8b-ce77-48b9-bdfb-2aacb5f27267" width="45%" />
   <img src="https://github.com/user-attachments/assets/e61451a2-dae5-4f0c-9585-ed952834e59f" width="45%" />
